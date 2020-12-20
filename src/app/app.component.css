@@ -1,0 +1,30 @@
+h1
+{
+    text-align: center;
+    background: yellow;
+    color: brown;
+}
+
+ 
+.guide
+{
+    margin-left: 300px;
+    font-size: 20px;
+    border: 1px solid green;
+    width: 650px;
+    background: wheat;
+}
+
+button
+{   
+        font-size: 14px;
+        background-color:red;
+        display: inline-block;
+        color:white;
+         
+         
+}
+button:hover
+{
+        background-color: yellowgreen;
+}

@@ -1,0 +1,14 @@
+<div *ngIf="!Choosed">
+        <div class="guide">
+            Click any section to start the quiz <br><br>
+            1. GK &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <button   (click)="goto1()">Section1</button> <br><br>
+             2.Maths &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <button   (click)="goto2()">Section2</button> <br>
+             <br>
+             3.Social science &nbsp;&nbsp; &nbsp; <button   (click)="goto3()">Section1</button> <br><br>
+             <br>
+        </div>
+</div>
+
+<router-outlet> </router-outlet>

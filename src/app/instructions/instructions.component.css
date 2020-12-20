@@ -1,0 +1,23 @@
+
+.guide
+{
+    margin-left: 380px;
+    font-size: 20px;
+    border: 1px solid green;
+    width: 650px;
+    background: skyblue
+}
+
+button
+{   
+        font-size: 16px;
+        background-color: green;
+        display: inline-block;
+        color:white;
+        margin-left: 600px;
+         
+}
+button:hover
+{
+        background-color: yellowgreen;
+}
